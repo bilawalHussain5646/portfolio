@@ -1,1 +1,43 @@
-node_modules
+# Node dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite output
+/dist
+/.vite
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vercel cache
+.vercel
+.vercel_build_output
+
+# Optional: npm package lock files (if you want to ignore)
+# package-lock.json
+# yarn.lock
