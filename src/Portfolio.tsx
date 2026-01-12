@@ -173,7 +173,7 @@ const Portfolio = () => {
   ];
 
   const renderHome = () => (
-    <div className="min-h-screen flex items-center justify-center px-4 py-24 lg:py-4">
+    <div className="h-screen flex items-center justify-center px-4">
       <div className="max-w-5xl mx-auto text-center">
         <div className="mb-8 relative">
           <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-blue-500 via-purple-600 to-pink-500 p-1 animate-pulse">
@@ -188,7 +188,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <h1 className="text-6xl md:text-8xl font-bold mb-6 mt-12">
+        <h1 className="text-4xl sm:text-5xl md:text-8xl font-bold mb-6 mt-12">
           <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
             Bilawal Hussain
           </span>
@@ -196,7 +196,7 @@ const Portfolio = () => {
 
         <div className="flex items-center justify-center space-x-3 mb-8">
           <div className="h-px w-16 bg-gradient-to-r from-transparent to-blue-500"></div>
-          <p className="text-3xl md:text-4xl text-slate-300 font-light">
+          <p className="text-xl sm:text-2xl md:text-4xl text-slate-300 font-light">
             Full Stack Web Developer
           </p>
           <div className="h-px w-16 bg-gradient-to-l from-transparent to-purple-500"></div>
@@ -212,15 +212,15 @@ const Portfolio = () => {
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
-          <div className="bg-slate-800/50 backdrop-blur border border-slate-700 px-6 py-3 rounded-full flex items-center space-x-2">
+          <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 px-6 py-3 rounded-full flex items-center space-x-2">
             <MapPin size={18} className="text-blue-400" />
             <span>Dubai, UAE</span>
           </div>
-          <div className="bg-slate-800/50 backdrop-blur border border-slate-700 px-6 py-3 rounded-full flex items-center space-x-2">
+          <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 px-6 py-3 rounded-full flex items-center space-x-2">
             <Briefcase size={18} className="text-purple-400" />
             <span>4+ Years Experience</span>
           </div>
-          <div className="bg-slate-800/50 backdrop-blur border border-slate-700 px-6 py-3 rounded-full flex items-center space-x-2">
+          <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 px-6 py-3 rounded-full flex items-center space-x-2">
             <GraduationCap size={18} className="text-pink-400" />
             <span>BS Software Engineering</span>
           </div>
@@ -272,14 +272,14 @@ const Portfolio = () => {
   );
 
   const renderAbout = () => (
-    <div className="min-h-screen flex items-center justify-center px-4 py-24 lg:py-20">
+    <div className="h-screen flex items-center justify-center px-4 overflow-y-auto py-20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl font-bold mb-16 text-center bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
           About Me
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-slate-800/50 backdrop-blur rounded-3xl p-8 border border-slate-700">
+          <div className="bg-slate-800/50 backdrop-blur-sm rounded-3xl p-8 border border-slate-700">
             <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center mb-6">
               <User size={32} />
             </div>
@@ -298,7 +298,7 @@ const Portfolio = () => {
             </p>
           </div>
 
-          <div className="bg-slate-800/50 backdrop-blur rounded-3xl p-8 border border-slate-700">
+          <div className="bg-slate-800/50 backdrop-blur-sm rounded-3xl p-8 border border-slate-700">
             <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center mb-6">
               <Code size={32} />
             </div>
@@ -348,14 +348,14 @@ const Portfolio = () => {
   );
 
   const renderExperience = () => (
-    <div className="min-h-screen flex items-center justify-center px-4 py-24 lg:py-20">
+    <div className="h-screen flex items-center justify-center px-4 overflow-y-auto py-20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl font-bold mb-16 text-center bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
           Work Experience
         </h2>
 
         <div className="space-y-8">
-          <div className="bg-slate-800/50 backdrop-blur rounded-3xl p-8 border-2 border-blue-500/50 relative overflow-hidden">
+          <div className="bg-slate-800/50 backdrop-blur-sm rounded-3xl p-8 border-2 border-blue-500/50 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-blue-500/20 to-purple-600/20 rounded-full blur-3xl"></div>
 
             <div className="relative">
@@ -433,7 +433,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="bg-slate-800/50 backdrop-blur rounded-3xl p-8 border border-slate-700 relative overflow-hidden">
+          <div className="bg-slate-800/50 backdrop-blur-sm rounded-3xl p-8 border border-slate-700 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-purple-500/20 to-pink-600/20 rounded-full blur-3xl"></div>
 
             <div className="relative">
@@ -508,7 +508,7 @@ const Portfolio = () => {
   );
 
   const renderSkills = () => (
-    <div className="min-h-screen flex items-center justify-center px-4 py-24 lg:py-20">
+    <div className="h-screen flex items-center justify-center px-4 overflow-y-auto py-20">
       <div className="max-w-6xl mx-auto w-full">
         <h2 className="text-5xl font-bold mb-16 text-center bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
           Technical Skills
@@ -518,7 +518,7 @@ const Portfolio = () => {
           {skills.map((skill, idx) => (
             <div
               key={idx}
-              className="bg-slate-800/50 backdrop-blur rounded-2xl p-6 border border-slate-700 hover:border-slate-600 transition-all"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700 hover:border-slate-600 transition-all"
             >
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center space-x-3">
@@ -558,7 +558,7 @@ const Portfolio = () => {
           ))}
         </div>
 
-        <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur rounded-3xl p-8 border border-slate-700">
+        <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-3xl p-8 border border-slate-700">
           <div className="flex items-center space-x-3 mb-6">
             <Award className="text-yellow-400" size={32} />
             <h3 className="text-2xl font-bold">
@@ -585,7 +585,7 @@ const Portfolio = () => {
   );
 
   const renderProjects = () => (
-    <div className="min-h-screen flex items-center justify-center px-4 py-24 lg:py-20">
+    <div className="h-screen flex items-center justify-center px-4 overflow-y-auto py-20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl font-bold mb-16 text-center bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
           Featured Projects
@@ -595,7 +595,7 @@ const Portfolio = () => {
           {projects.map((project, idx) => (
             <div
               key={idx}
-              className="bg-slate-800/50 backdrop-blur rounded-3xl p-8 border border-slate-700 hover:border-blue-500/50 transition-all group"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-3xl p-8 border border-slate-700 hover:border-blue-500/50 transition-all group"
             >
               <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <project.icon size={32} />
@@ -644,7 +644,7 @@ const Portfolio = () => {
   );
 
   const renderContact = () => (
-    <div className="min-h-screen flex items-center justify-center px-4 py-24 lg:py-4">
+    <div className="h-screen flex items-center justify-center px-4">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
           Let's Connect
@@ -657,7 +657,7 @@ const Portfolio = () => {
         <div className="grid md:grid-cols-2 gap-6 mb-12">
           <a
             href="mailto:bilawal.hussain350@gmail.com"
-            className="group bg-slate-800/50 backdrop-blur p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-all"
+            className="group bg-slate-800/50 backdrop-blur-sm p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-all"
           >
             <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center group-hover:scale-110 transition-transform">
               <Mail size={28} />
@@ -670,7 +670,7 @@ const Portfolio = () => {
 
           <a
             href="tel:+971582326874"
-            className="group bg-slate-800/50 backdrop-blur p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-all"
+            className="group bg-slate-800/50 backdrop-blur-sm p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-all"
           >
             <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center group-hover:scale-110 transition-transform">
               <Phone size={28} />
@@ -683,7 +683,7 @@ const Portfolio = () => {
             href="https://www.linkedin.com/in/bilawal-hussain/"
             target="_blank"
             rel="noopener noreferrer"
-            className="group bg-slate-800/50 backdrop-blur p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-all"
+            className="group bg-slate-800/50 backdrop-blur-sm p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-all"
           >
             <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center group-hover:scale-110 transition-transform">
               <Linkedin size={28} />
@@ -696,7 +696,7 @@ const Portfolio = () => {
             href="https://github.com/bilawalHussain5646"
             target="_blank"
             rel="noopener noreferrer"
-            className="group bg-slate-800/50 backdrop-blur p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-all"
+            className="group bg-slate-800/50 backdrop-blur-sm p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-all"
           >
             <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-slate-600 to-slate-800 flex items-center justify-center group-hover:scale-110 transition-transform">
               <Github size={28} />
@@ -747,10 +747,10 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white relative">
+    <div className="min-h-[100svh] overflow-x-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white relative">
       {/* Side Navigation */}
       <nav className="fixed left-0 top-1/2 transform -translate-y-1/2 z-50 ml-8 hidden lg:block">
-        <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-2xl p-3 space-y-2">
+        <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-3 space-y-2">
           {sections.map((section) => {
             const Icon = section.icon;
             return (
@@ -775,8 +775,8 @@ const Portfolio = () => {
       </nav>
 
       {/* Mobile Navigation */}
-      <nav className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-slate-900/95 backdrop-blur border-t border-slate-700">
-        <div className="flex justify-around py-2">
+      <nav className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-slate-900/95 backdrop-blur-sm border-t border-slate-700">
+        <div className="flex justify-around py-3">
           {sections.map((section) => {
             const Icon = section.icon;
             return (
@@ -798,10 +798,10 @@ const Portfolio = () => {
       </nav>
 
       {/* Main Content */}
-      <main className="relative pb-20 lg:pb-0">{renderSection()}</main>
+      <main className="relative pb-28 lg:pb-0">{renderSection()}</main>
 
       {/* Animated Background Elements */}
-      <div className="fixed inset-0 pointer-events-none overflow-hidden -z-10">
+      <div className="absolute inset-0 pointer-events-none overflow-hidden -z-10">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
       </div>

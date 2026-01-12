@@ -4,7 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
-
+@supports (-webkit-touch-callout: none) {
+  .ios-fix {
+    min-height: 100svh !important;
+  }
+}
 .logo {
   height: 6em;
   padding: 1.5em;
