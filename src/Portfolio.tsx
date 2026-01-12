@@ -173,7 +173,7 @@ const Portfolio = () => {
   ];
 
   const renderHome = () => (
-    <div className="h-screen flex items-center justify-center px-4">
+    <div className="min-h-screen flex items-center justify-center px-4 py-24 lg:py-4">
       <div className="max-w-5xl mx-auto text-center">
         <div className="mb-8 relative">
           <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-blue-500 via-purple-600 to-pink-500 p-1 animate-pulse">
@@ -272,7 +272,7 @@ const Portfolio = () => {
   );
 
   const renderAbout = () => (
-    <div className="h-screen flex items-center justify-center px-4 overflow-y-auto py-20">
+    <div className="min-h-screen flex items-center justify-center px-4 py-24 lg:py-20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl font-bold mb-16 text-center bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
           About Me
@@ -348,7 +348,7 @@ const Portfolio = () => {
   );
 
   const renderExperience = () => (
-    <div className="h-screen flex items-center justify-center px-4 overflow-y-auto py-20">
+    <div className="min-h-screen flex items-center justify-center px-4 py-24 lg:py-20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl font-bold mb-16 text-center bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
           Work Experience
@@ -508,7 +508,7 @@ const Portfolio = () => {
   );
 
   const renderSkills = () => (
-    <div className="h-screen flex items-center justify-center px-4 overflow-y-auto py-20">
+    <div className="min-h-screen flex items-center justify-center px-4 py-24 lg:py-20">
       <div className="max-w-6xl mx-auto w-full">
         <h2 className="text-5xl font-bold mb-16 text-center bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
           Technical Skills
@@ -585,7 +585,7 @@ const Portfolio = () => {
   );
 
   const renderProjects = () => (
-    <div className="h-screen flex items-center justify-center px-4 overflow-y-auto py-20">
+    <div className="min-h-screen flex items-center justify-center px-4 py-24 lg:py-20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl font-bold mb-16 text-center bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
           Featured Projects
@@ -644,7 +644,7 @@ const Portfolio = () => {
   );
 
   const renderContact = () => (
-    <div className="h-screen flex items-center justify-center px-4">
+    <div className="min-h-screen flex items-center justify-center px-4 py-24 lg:py-4">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
           Let's Connect
@@ -798,7 +798,7 @@ const Portfolio = () => {
       </nav>
 
       {/* Main Content */}
-      <main className="relative">{renderSection()}</main>
+      <main className="relative pb-20 lg:pb-0">{renderSection()}</main>
 
       {/* Animated Background Elements */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden -z-10">
