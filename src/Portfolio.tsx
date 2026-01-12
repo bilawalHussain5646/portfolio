@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Github,
   Linkedin,
@@ -9,7 +9,6 @@ import {
   Briefcase,
   GraduationCap,
   Award,
-  ExternalLink,
   Home,
   User,
   Wrench,
