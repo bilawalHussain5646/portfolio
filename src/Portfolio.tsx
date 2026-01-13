@@ -644,7 +644,7 @@ const Portfolio = () => {
   );
 
   const renderContact = () => (
-    <div className="flex items-center justify-center px-4">
+    <div className="flex items-center justify-center px-4 py-20">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
           Let's Connect
